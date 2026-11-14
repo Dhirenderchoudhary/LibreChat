@@ -30,6 +30,7 @@ const protectedModules = [
   ),
   join(__dirname, '..', '..', '..', 'Messages', 'Content', 'Parts', 'PendingSteers.tsx'),
   join(__dirname, '..', '..', '..', '..', '..', 'hooks', 'Input', 'usePaletteEntries.tsx'),
+  join(__dirname, '../../../../../../../packages/chat/src/components/composer/Palette.tsx'),
 ];
 
 describe('composer semantic color guardrail', () => {
