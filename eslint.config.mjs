@@ -362,6 +362,7 @@ export default [
             'result-thinking',
             'shimmer',
             'tool-status-text',
+            'tool-call-expand',
             'message-render',
             'message-timestamp',
             'popover-animate',

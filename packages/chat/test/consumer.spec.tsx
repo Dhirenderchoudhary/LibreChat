@@ -36,6 +36,7 @@ import {
   MessagesHostProvider,
   MessagePartsHostProvider,
   ParentSubagentsProvider,
+  emptyToolCallChrome,
 } from '@librechat/chat/react';
 import type {
   ChatEvent,
@@ -213,6 +214,7 @@ const host: MessagePartsHost = {
   usePaneConversationId: () => null,
   useLiveAppliedSteer: () => [false, () => undefined],
   useShare: () => ({}),
+  useToolCallChrome: emptyToolCallChrome,
 };
 
 const messagesHost: MessagesHost = {
